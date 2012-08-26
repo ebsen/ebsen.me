@@ -1,0 +1,35 @@
+html {
+  background-color: #67B58D;
+}
+header {
+  background-color: #459D70;
+}
+header .grids {
+  /*background-color: #459D70;*/
+}
+a {
+  color: #295975;
+  /*text-decoration: none;*/
+}
+/*a:-webkit-any-link {*/
+  /*color: #5C8DAA;*/
+/*}*/
+a:hover {
+  color: ##43728E !important;
+}
+a:visited {
+  color: #295975;
+  /*text-decoration: none;*/
+  /* color: inherit; */
+  /* color: none; */
+}
+.grids {
+  /*background-color: #67B58D;*/
+  /*background-color: white;*/
+}
+h1 {
+  color: #43728E;
+}
+/*.active {*/
+  /*color: #295975;*/
+/*}*/
