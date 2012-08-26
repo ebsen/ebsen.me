@@ -4,8 +4,8 @@ html {
 header {
   background-color: #459D70;
 }
-header .grids {
-  /*background-color: #459D70;*/
+section {
+  /*background-color: white;*/
 }
 a {
   color: #295975;
@@ -33,3 +33,6 @@ h1 {
 /*.active {*/
   /*color: #295975;*/
 /*}*/
+footer {
+  color: #295975;
+}
