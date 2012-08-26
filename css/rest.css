@@ -10,3 +10,5 @@ a:hover:before {
 a:hover:after {
   content: "]";
 }
+header {
+  border-radius: 0 0 0.5em 0.5em;
