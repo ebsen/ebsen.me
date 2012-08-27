@@ -1,25 +1,25 @@
 body {
-  background-color: #67B58D;
+  /*background-color: #67B58D;*/
   color: #323232;
 }
 header {
-  background-color: #459D70;
+  background-color: #65967D;
 }
 a {
-  color: #295975;
+  color: #323232;
 }
 a:hover {
-  color: #43728E !important;
+  /*color: #708592 !important;*/
 }
 a:visited {
-  color: #295975;
+  color: #323232;
 }
 h1 {
-  color: #43728E;
+  color: #708592;
 }
 .active {
-  color: #43728E;
+  color: #708592;
 }
 footer {
-  color: #295975;
+  color: #5E7888;
 }
