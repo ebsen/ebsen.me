@@ -3,7 +3,7 @@ I wrote this (very, very) simple web page as a placeholder for [ebsen.me/][1]. E
 
 The CSS is based on [Dan Eden][2]'s wonderfully flexible [Toast][3]. Colors for the site came from fiddling around with [Color Scheme Designer][3].
 
-# Licence
+# License
 This project is released under the [☺ Licence][license].
 
 [1]: http://ebsen.me/
