@@ -12,3 +12,9 @@ a:hover:after {
 }
 header {
   border-radius: 0 0 0.5em 0.5em;
+}
+.top-bar {
+  height: 1px;
+  padding-bottom: 10px;
+  /* Define color in colors.css */
+}

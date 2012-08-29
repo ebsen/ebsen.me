@@ -2,8 +2,11 @@ body {
   /*background-color: #67B58D;*/
   color: #323232;
 }
-header {
+.top-bar {
   background-color: #65967D;
+}
+header {
+  /*background-color: #65967D;*/
 }
 a {
   color: #323232;
