@@ -1,5 +1,5 @@
 # README
-I wrote this (very, very) simple web page as a placeholder for [ebsen.me/][1] Eventually, I really do plan to do something more significant with the address.
+I wrote this (very, very) simple web page as a placeholder for [ebsen.me/][1]. Eventually, I really do plan to do something more significant with the address.
 
 The CSS is based on [Dan Eden][2]'s wonderfully flexible [Toast][3], which I recommend.
 
