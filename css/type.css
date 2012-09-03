@@ -1,10 +1,10 @@
 /* Toast Framework - type.css */
 body {
-	font: 100%/1.5 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+    font: 100%/1.5 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 header a {
-  font-weight: 600;
+    font-weight: 600;
 }
 h1 {
     font-size: 3em; /* 48 / 16 */

@@ -1,8 +1,8 @@
-a {
-  text-decoration: none;
+header {
+  border-radius: 0 0 0.5em 0.5em;
 }
-a:visited {
-  text-decoration: none
+a, a:visited {
+  text-decoration: none;
 }
 a:hover:before {
   content: "[";
@@ -10,18 +10,19 @@ a:hover:before {
 a:hover:after {
   content: "]";
 }
-header {
-  border-radius: 0 0 0.5em 0.5em;
-}
 ul {
   padding-left: 0px;
+  text-align: right;
+}
+footer {
+  text-align: right;
+}
+.top-bar, .bottom-bar {
+  height: 0.5em;
 }
 .top-bar {
-  height: 0.5em;
   margin-bottom: 30px;
-  /* Define color in colors.css */
 }
 .bottom-bar {
-  height: 0.5em;
   margin-top: 30px;
 }

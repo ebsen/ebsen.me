@@ -2,30 +2,26 @@ body {
   /*background-color: #67B58D;*/
   color: #323232;
 }
-.top-bar {
-  background-color: #65967D;
-}
-.bottom-bar {
-  background-color: #65967D;
-}
 header {
   /*background-color: #65967D;*/
 }
-a {
-  color: #323232;
+a, a:visited {
+  color: #5E7888;
 }
 a:hover {
-  /*color: #708592 !important;*/
-}
-a:visited {
-  color: #323232;
+  /*color: #7B919D !important;*/
+  /*color: #D5B690 !important;*/
+  color: #D5A190 !important;
 }
 h1 {
   color: #708592;
 }
-.active {
-  color: #708592;
-}
+/*.active {*/
+  /*color: #D5B690 !important;*/
+/*}*/
 footer {
   color: #5E7888;
+}
+.top-bar, .bottom-bar {
+  background-color: #65967D;
 }
