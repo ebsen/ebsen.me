@@ -1,5 +1,5 @@
 # TODO
-* Collapse `Professional` into the `Projects` page
+* Collapse `Professional` into the `Projects` page (and put this somewhere: http://catalog.sdstate.edu/preview_program.php?catoid=18&poid=2763&returnto=1320)
 * Fix the navigation, either by left-aligning the list items or scrapping the whole "let's make that a grid" thing
 * Fix the missing bullets from body-copy list items in "tiny screen" size
 * Have Harmony proof the copy
