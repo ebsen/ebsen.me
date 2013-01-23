@@ -40,3 +40,6 @@ h6 {
 p, ul, ol, dl, blockquote {
     margin-bottom: 1.5em; /* 24 / 16 */
 }
+code {
+	font-family: Courier, monospace;
+}
