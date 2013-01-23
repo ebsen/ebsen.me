@@ -4,15 +4,18 @@ header {
 a, a:visited {
   text-decoration: none;
 }
-a:hover:before {
+header a:hover:before {
   content: "[";
 }
-a:hover:after {
+header a:hover:after {
   content: "]";
 }
 ul {
   padding-left: 0px;
   text-align: right;
+}
+section .grids [class*="grid-"] {
+	padding: 0px 30px;
 }
 section ul {
 	text-align: left;
