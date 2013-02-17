@@ -24,9 +24,9 @@ ul {
   padding-left: 0px;
   text-align: right;
 }
-section {
-	padding-bottom: 6.15%;
-}
+/*section {*/
+/*	padding-bottom: 6.15%;*/
+/*}*/
 section .grids [class*="grid-"] {
 	padding: 0 14.583% 14.583% 14.583%; /* grid-2 width is 14.583% */
 }
@@ -39,7 +39,7 @@ footer {
 	height: 6.15%;
 	bottom: 0;
 	position: absolute;
-	left: 0;
+/*	left: 0;*/
 }
 /*footer .grids [class*="grid-"] {
 	padding: 0 14.583% 14.583% 14.583%;
