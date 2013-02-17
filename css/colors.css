@@ -20,7 +20,8 @@ h1 {
   /*color: #D5B690 !important;*/
 /*}*/
 footer {
-  color: #5E7888;
+  color: white; /* #5E7888 */
+	background-color: #65967D;
 }
 .top-bar, .bottom-bar {
   background-color: #65967D;
