@@ -23,7 +23,7 @@ Column container
 }
 .grids [class*="grid-"] {
   display: inline-block;
-  margin: 0 0 0 1.7%;
+  margin: 0 0 0 1.7%; /*1.7%*/
   -webkit-box-sizing: border-box; /* Allow padding & borders on grids without breaking. IE8+ */
   -moz-box-sizing: border-box;
   box-sizing: border-box;

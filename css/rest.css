@@ -1,13 +1,13 @@
-html, body {
+/*html, body {
 /*	margin: 0;
 	padding: 0;
-*/	height: 100%;
+	height: 100%;
 }
 #wrapper {
 	min-height: 100%;
 	position: relative;
 }
-
+*/
 header {
   border-radius: 0 0 0.5em 0.5em;
 }
@@ -34,17 +34,18 @@ section ul {
 	text-align: left;
 }
 footer {
-  text-align: right;
+	vertical-align: bottom;
+/*  text-align: right;
 	width: 100%;
+	max-width: 100% !important;
 	height: 6.15%;
 	bottom: 0;
 	position: absolute;
 /*	left: 0;*/
 }
-/*footer .grids [class*="grid-"] {
+footer .grids [class*="grid-"] {
 	padding: 0 14.583% 14.583% 14.583%;
 }
-*/
 .top-bar, .bottom-bar {
   height: 0.5em;
 }
