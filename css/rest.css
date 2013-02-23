@@ -1,13 +1,14 @@
-html, body {
+/*html, body {
 	height: 100%;
 }
 body {
 	min-height: 100%;
-/*	position: relative;*/
+	position: relative;
 }
 header {
   border-radius: 0 0 0.5em 0.5em;
 }
+*/
 a, a:visited {
   text-decoration: none;
 }
@@ -26,9 +27,9 @@ aside {
 }
 section {
 /*	position: relative;*/
-	min-height: 100%;
+/*	min-height: 100%;
 	margin-bottom: -100px;
-/*	padding-bottom: 500px;*/
+*//*	padding-bottom: 500px;*/
 }
 section .grids [class*="grid-"] {
 /*	padding-bottom: 120px;*/
@@ -37,7 +38,7 @@ section ul {
 	text-align: left;
 }
 footer {
-	height: 100px;
+/*	height: 100px;*/
 /*	position: relative;*/
 /*	position: absolute;*/
 /*	bottom: 0;*/
@@ -46,14 +47,6 @@ footer {
 /*  text-align: right;*/
 /*	vertical-align: baseline;*/
 }
-footer, .spacing {
-	clear: both;
-}
-/*.clear-footer {
-	height: 200px;
-	clear: both;
-}
-*/
 .top-bar, .bottom-bar {
 /*	position: absolute;*/
   height: 0.5em;
