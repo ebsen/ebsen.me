@@ -1,3 +1,10 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+/*	position: relative;*/
+}
 header {
   border-radius: 0 0 0.5em 0.5em;
 }
@@ -14,14 +21,22 @@ header a:hover:after {
   padding-left: 0px;
   text-align: right;
 }
-section .grids [class*="grid-"] {
-/*	padding: 0px 30px;*/
+/*section {
+	padding-bottom: 500px;
+}
+*/section .grids [class*="grid-"] {
+/*	padding-bottom: 120px;*/
 }
 section ul {
 	text-align: left;
 }
 footer {
+/*	position: absolute;*/
+/*	bottom: 0;*/
+/*	min-width: 100%;*/
+/*	left: 33%;*/
 /*  text-align: right;*/
+/*	vertical-align: baseline;*/
 }
 .top-bar, .bottom-bar {
   height: 0.5em;
