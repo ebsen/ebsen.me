@@ -3,5 +3,5 @@
 @import url('grid.css');
 @import url('type.css');
 @import url('colors.css'); /* This one is mine, not Mr. Eden's */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600); /* Source Sans Pro (Normal) from Google's web fonts */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro); /* Source Sans Pro (Normal) from Google's web fonts */
 @import url('rest.css'); /* Everything else */
