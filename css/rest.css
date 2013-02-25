@@ -1,10 +1,11 @@
-html {
+/*html {
 	height: 100%;
 }
 body {
 	min-height: 100%;
 /*	position: relative;*/
-}
+}*/
+
 header {
   border-radius: 0 0 0.5em 0.5em;
 }
@@ -38,6 +39,9 @@ footer {
 /*	left: 33%;*/
 /*  text-align: right;*/
 /*	vertical-align: baseline;*/
+}
+footer p {
+	text-align: left;
 }
 .top-bar, .bottom-bar {
   height: 0.5em;

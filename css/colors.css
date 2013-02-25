@@ -13,14 +13,17 @@ a:hover {
   /*color: #D5B690 !important;*/
   color: #D5A190 !important;
 }
-h1 {
-  color: #708592;
+h1, h2, h3 {
+  color: #5D7888;
+}
+li h1, h2, h3, h4, h5, h6 {
+	border-bottom: 0.15em solid #7B919D;
 }
 /*.active {*/
   /*color: #D5B690 !important;*/
 /*}*/
 footer {
-  color: #5E7888; /* #5E7888, white */
+  color: #5D7888; /* #5E7888, white */
 /*	background-color: #65967D;*/
 }
 .top-bar, .bottom-bar {
