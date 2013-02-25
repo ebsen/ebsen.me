@@ -26,6 +26,7 @@ header a:hover:after {
 }
 */section .grids [class*="grid-"] {
 /*	padding-bottom: 120px;*/
+padding: 0 30px;
 }
 section ul {
 	text-align: left;
