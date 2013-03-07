@@ -39,6 +39,8 @@ html, body {
 .page {
 	min-height: 100%;
 	position: relative;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 .top-bar {
 	width: 100%;
