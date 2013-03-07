@@ -2,13 +2,18 @@
 	COLORS
 *************/
 .top-bar {
-	background-color: green;
+	background-color: #65967D; /*green*/ 
 }
 h1, a {
-	color: blue; /* 'a' will eventually be strongest blue, h* will be lightest */
+	color: #5D7888; /* 'a' will eventually be strongest blue, h* will be lightest */
 }
 footer {
-	background-color: #999;
+	background-color: #84AA97; /*999*/
+/*	font-color: white;*/
+/*	color: white;*/
+}
+footer a {
+	color: #D5B690;
 }
 
 /*************
@@ -39,6 +44,6 @@ footer {
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
-	height: 180px;
+	height: 12em;
 	width: 100%;
 }
