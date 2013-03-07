@@ -78,4 +78,11 @@ Column container
     width: auto;
     margin: 0;
   }
+	footer {
+		position: relative;
+		height: auto;
+	}
+	.wrap {
+		padding-bottom: 10px;
+	}
 }

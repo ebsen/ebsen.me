@@ -44,12 +44,11 @@ html, body {
 	width: 100%;
 	height: 0.5em;
 }
-article .grids {
+section div .wrap {
 	padding-bottom: 12em;
 }
 footer {
 	position: absolute;
-	left: 0px;
 	bottom: 0px;
 	height: 12em;
 	width: 100%;
