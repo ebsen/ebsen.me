@@ -1,11 +1,28 @@
 /*************
-	COLORS
+	LAYOUT & COLOR
 *************/
+html, body { 
+	height: 100%; 
+}
 .top-bar, .bottom-bar {
+/*	position: fixed;*/
+	width: 100%;
+	height: 0.5em;
 	background-color: #65967D; /*green*/ 
+}
+.wrap {
+	min-height: 100%;
+}
+.grids [class*="grid-"] {
+	padding: 0 0 0 20px;
 }
 h1, a {
 	color: #5D7888;
+}
+.bottom-bar {
+/*	position: fixed;*/
+	left: 0px;
+	bottom: 0px;
 }
 
 /*************
@@ -28,24 +45,4 @@ section p {
 }
 ul {
 	padding-left: 0;
-}
-
-/*************
-	LAYOUT
-*************/
-html, body { 
-	height: 100%; 
-}
-.top-bar, .bottom-bar {
-	position: fixed;
-	width: 100%;
-	height: 0.5em;
-}
-.grids [class*="grid-"] {
-	padding: 0 0 0 20px;
-}
-.bottom-bar {
-/*	position: fixed;*/
-	left: 0px;
-	bottom: 0px;
 }
