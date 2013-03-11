@@ -3,7 +3,7 @@ Toast Framework - grid.css
 */
 .wrap {
   max-width: 940px;
-  padding: 10px 3em; /*Default: 10px*/
+  padding: 10px; /*10px 3em*/
   margin: 0 auto;
 }
 /*
