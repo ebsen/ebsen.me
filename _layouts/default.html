@@ -5,49 +5,44 @@
   <link rel="stylesheet" href="/css/toast.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	<title>
-		ele{% if page.title %} | {{ page.title }}{% endif %}
+		{% if page.title %}{{ page.title }} | {% endif %}Internet home of Erik Ebsen
 	</title>
-	<meta name="description" content="The personal web presence of Erik Ebsen, writer and fledgling developer.">
+	<meta name="description" content="Internet home of Erik Ebsen: Christian, husband, father">
 </head>
 <body>
-	
-<!-- <div id="wrapper"> -->
-  
-	<!-- Navigation -->
-  <div class="top-bar"></div>
-  <header class="wrap">
-    <ul class="grids">
-      <li class="grid-2">&nbsp;</li>
-      <li class="grid-2"><a href="/">About</a></li>
-      <!-- <li class="grid-2"><a href="blog.html">Blog</a></li> -->
-			<li class="grid-2"><a href="/professional">Professional</a></li>
-			<li class="grid-2"><a href="/contact">Contact</a></li>
-			<li class="grid-2"><a href="/colophon">Colophon</a></li>
-      <li class="grid-2">&nbsp;</li>
-    </ul>
-  </header>
-	
-	<!-- Body -->
-	<section class="wrap">
-	  <div class="grids">
-			<!-- <div class="grid-2"></div> -->
-			<div class="grid-12">
-				{{ content }}
-			</div>
-			<!-- <div class="grid-2"></div> -->
-	  </div>
-	</section>
-	
-  <!-- Footer -->
-  <footer class="wrap">
-    <ul class="grids">
-      <!-- <li class="grid-2">&nbsp;</li> -->
-      <li class="grid-12">Copyright 2013 Erik L. Ebsen. All Rights Reserved.</li>
-      <!-- <li class="grid-2">&nbsp;</li> -->
-    </ul>
-  </footer>
 
-<!-- </div> -->
+  <div class="top-bar"></div>
+  <div class="wrap">
+		
+		<!-- Navigation -->
+    <nav class="grids">
+			<section class="grid-one-third"><a href="/">Home</a></section>
+      <section class="grid-one-third"><a href="/about">About</a></section>
+			<section class="grid-one-third"><a href="/professional">Professional</a></section>
+    </nav> <!-- .grids -->
+	
+		<!-- Body -->
+		<article class="grids">
+			{{ content }}
+		</article> <!-- .grids -->
+
+	  <footer class="grids">
+			<section class="grid-one-third">
+				Contact
+				<p>Find me on <a href="https://twitter.com/eriklebsen/">Twitter</a> or <a href="mailto:erik.ebsen@me.com">send an email</a>.</p>
+			</section>
+			<section class="grid-one-third">
+				Colophon
+				<p>Statically generated with <a href="http://jekyllrb.com">Jekyll</a>, hosted on <a href="http://aws.amazon.com/s3/">Amazon S3</a>, set in <a href="http://www.paratype.com/public/">PT Serif</a>, and responsive due to <a href="http://daneden.me/toast/">Toast</a>.</p>
+			</section>
+			<section class="grid-one-third">
+				Copyright
+				<p>Copyright 2013. All Rights Reserved.</p>
+			</section>
+		</footer> <!-- .grids -->
+	</div> <!-- .wrap -->
+		
+	<div class="bottom-bar"></div>
 
 </body>
 </html>

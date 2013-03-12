@@ -2,7 +2,11 @@
 layout: default
 title: Contact
 ---
-# Contact
-Those looking to find me may do so via [Twitter](https://twitter.com/eriklebsen) or [email](mailto:erik.ebsen@me.com).
-
-As seems so common these days, I also tend to frequent the local coffee shops.
+<div class="grid-12">
+	<h1 id="contact">
+		Contact
+	</h1>
+	<p>
+		Look me up on <a href="https://twitter.com/eriklebsen">Twitter</a> or <a href="mailto:erik.ebsen@me.com">send me an email</a>.
+	</p>
+</div>
