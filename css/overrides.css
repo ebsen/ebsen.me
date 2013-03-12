@@ -15,6 +15,9 @@ html, body {
 h1, a {
 	color: #5D7888;
 }
+.bottom {
+	padding-bottom: 0;
+}
 .bottom-bar {
 	left: 0px;
 	bottom: 0px;
