@@ -2,5 +2,9 @@
 @import url('reset.css');
 @import url('grid.css');
 @import url('type.css');
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);
+/*@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);*/
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(http://fonts.googleapis.com/css?family=Cantarell);
 @import url('overrides.css');
