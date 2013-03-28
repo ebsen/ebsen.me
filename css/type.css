@@ -1,7 +1,6 @@
 /* Toast Framework - type.css */
 body {
-/*    font: 100%/1.5 'Georgia', serif; /*Helvetica Neue, Helvetica, Arial, sans-serif;*/
-		font: 100%/1.5 'Sorts Mill Goudy' 'Cantarell', 'Crimson Text', 'Georgia', serif;
+		font: 100%/1.5 'Lora', sans-serif;
     font-weight: 400;
 }
 h1 {
