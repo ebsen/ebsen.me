@@ -2,53 +2,61 @@
 <html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" href="/css/toast.css">
+  <link rel="stylesheet" href="css/toast.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	<title>
 		{% if page.title %}{{ page.title }} | {% endif %}Internet home of Erik Ebsen
 	</title>
 	<meta name="description" content="Internet home of Erik Ebsen: Christian, husband, father">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$("body").hide().fadeIn(1200);
-	});
-	</script>
+	<!-- // <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	// <script type="text/javascript">
+	// $(document).ready(function() {
+	// 	$("body").hide().fadeIn(1200);
+	// });
+	// </script> -->
 </head>
 <body>
-
-  <div class="top-bar"></div>
-  <div class="wrap">
+	
+	<div class="container">
 		
 		<!-- Navigation -->
-    <nav class="grids">
-			<section class="grid-one-third"><a href="/">Home</a></section>
-      <section class="grid-one-third"><a href="/about">About</a></section>
-			<section class="grid-one-third"><a href="/professional">Professional</a></section>
-    </nav> <!-- .grids -->
+	  <nav class="grid">
+			<section class="unit one-of-three"><a href="/">Home</a></section>
+	    <section class="unit one-of-three"><a href="/about">About</a></section>
+			<section class="unit one-of-three"><a href="/professional">Professional</a></section>
+	  </nav>
+		
+	  <div class="grid">
+			{{ content }}
+	  </div>
+	</div>
+
+  <!-- <div class="top-bar"></div>
+  <div class="container"> -->
+		
 	
 		<!-- Body -->
-		<article class="grids">
+		<!-- <article class="grid">
 			{{ content }}
-		</article> <!-- .grids -->
+		</article> --> <!-- .grid -->
 
-	  <footer class="grids bottom">
-			<section class="grid-one-third">
+	  <!-- <footer class="grid bottom">
+			<section class="one-of-three">
 				Contact
 				<p>Find me on <a href="https://twitter.com/eriklebsen/">Twitter</a> or <a href="mailto:erik.ebsen@me.com">send an email</a>.</p>
 			</section>
-			<section class="grid-one-third">
+			<section class="one-of-three">
 				Colophon
 				<p>Statically generated with <a href="http://jekyllrb.com">Jekyll</a>, hosted on <a href="http://aws.amazon.com/s3/">Amazon S3</a>, set in <a href="http://www.google.com/fonts/specimen/Lora">Lora</a> and <a href="http://www.google.com/fonts/specimen/Oswald">Oswald</a>, and responsive thanks to <a href="http://daneden.me/toast/">Toast</a>.</p>
 			</section>
-			<section class="grid-one-third">
+			<section class="one-of-three">
 				Copyright
 				<p>Copyright 2013. All Rights Reserved.</p>
 			</section>
-		</footer> <!-- .grids -->
-	</div> <!-- .wrap -->
+		</footer> --> <!-- .grid -->
+	<!-- </div> --> <!-- .container -->
 		
-	<div class="bottom-bar"></div>
+	<!-- <div class="bottom-bar"></div> -->
 	
 </body>
 </html>
